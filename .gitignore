@@ -1,8 +1,10 @@
-*.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+**.DS_Store
+.idea
+*.class
+# Since moved to gradle therefore ignore all *.iml files
+*.iml
+# Emacs cache
+*.*~
+build
